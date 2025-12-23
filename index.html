@@ -4,17 +4,711 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-
+    <title>Bucak Salep</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="py-1 text-center ilk-yesil">
+        950 TL ve Üzeri <strong>Kargo Ücretsiz</strong><i class="fa-solid fa-truck kargo-araba"></i>
+    </div>
+
+    <div class="iletisim">
+        <div class="container">
+            <div class="row ">
+                <div class="col-2 ">
+                    <ul class="linkler d-flex mt-3">
+                        <li>
+                            <a href="https://www.facebook.com/dogalbucaktozsalebi/">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/tozsalep">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/otagdogal/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/otagdogalurunler">
+                                <i class="fa-brands fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/72232097">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <div class="wp mt-3">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <a href="">0 (545) 393 3193</a>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <nav class="navbar navbar-expand-lg navlar">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Dondurma Tarifi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Salep Tarifi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hakkımızda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Yardım</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Sipariş Takip</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa-regular fa-user"></i> Giriş Yap / Üye Ol
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#"> Giriş Yap</a></li>
+                                            <li><a class="dropdown-item" href="#">Üye Ol</a></li>
+                                            <li><a class="dropdown-item" href="#">Hesabım</a></li>
+                                            <li><a class="dropdown-item" href="#">Siparişlerim</a></li>
+                                            <li><a class="dropdown-item" href="#">Alışveriş Listem</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-1">
+                    <div class="sepet mt-3">
+                        <a href="">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu d-flex mt-3 justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/İmage/logo-1.png" alt="Bucak Salep Logo">
+                </div>
+                <div class="col-3 mt-3">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ne Aramıştınız?"
+                            aria-label="Search" />
+                        <button class="btn btn-outline arama-kutusu" type="submit">Arama</button>
+                    </form>
+                </div>
+                <div class="col-7 mt-2">
+                    <nav class="navbar navbar-expand-lg menu-nav">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item menu-link">
+                                        <a class="nav-link active menu-link" href="#">ANASAYFA</a>
+                                    </li>
+                                    <li class="nav-item dropdown menu-link">
+                                        <a class="nav-link dropdown-toggle active menu-link" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            SALEP
+                                        </a>
+                                        <ul class="dropdown-menu menu-link ic-ul">
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 50Gr</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 100Gr</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 250Gr</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 500Gr</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 1Kg</a></li>
+                                            <li><a class="dropdown-item" href="#">Doğal Toz Salep 5Kg</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown menu-link">
+                                        <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            TARÇIN
+                                        </a>
+                                        <ul class="dropdown-menu menu-link ic-ul">
+                                            <li><a class="dropdown-item" href="#">Toz Tarçın</a></li>
+                                            <li><a class="dropdown-item" href="#">Çubuk Tarçın</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item bucak-salebi-link menu-link">
+                                        <a class="nav-link active" href="#">BUCAK SALEBİ</a>
+                                    </li>
+                                    <li class="nav-item dropdown menu-link">
+                                        <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            TARİFLER
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Salep Tarifi</a></li>
+                                            <li><a class="dropdown-item" href="#">Evde Gerçek Dondurma Tarifi</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/İmage/1.RESİM.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/İmage/2.RESİM.jpg" class="d-block w-100" alt="...">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/İmage/3.RESİM.jpg" class="d-block w-100" alt="...">
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div><br>
+        <div class="container">
+            <h2>Doğal Saf Salep</h2><br>
+            <div class="row">
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/1.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <p class="text-center fiyat">₺359,00</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/1.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺599,00</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/1.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺899,00</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 ">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/1.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺1.149,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+                <div class="col-3 asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/2.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺2.149,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/2.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺3.149,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/2.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺4.149,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/2.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺2.779,90</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div><br>
+        <div class="container">
+            <h3>Doğal Çekirdek Salep</h3>
+            <div class="row">
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺359,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺459,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺559,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺659,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺759,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺859,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺959,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex asagi">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/3.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺1059,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><br><br>
+        <div class="container">
+            <h2>Tarçın</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/4.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺99,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card d" style="width: 18rem; ">
+                        <img src="/İmage/4.Foto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Doğal Toz Salep 25 Gr Meşhur Bucak
+                                Salebi Katkısız Saf Salep
+                            </p>
+                            <div class="yildizlar d-flex justify-content-center">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-center fiyat">₺99,000</p>
+                            <div class="div d-flex justify-content-center">
+                                <i class="fa-solid fa-cart-shopping"></i><i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center buyuk-yazi">Katkısız Saf Salep Tozu Bucak Salep</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="resimler">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/İmage/ilk-resim.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"><br>
+                            <h3 class="basliklar text-center">Doğal Salep</h3>
+                            <p class="card-text">bucaksalep.com olarak satışını yaptığımız salepler doğal salep lerden
+                                elde
+                                edilmektedir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/İmage/ikinci-resim.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"><br>
+                            <h3 class="basliklar text-center">Doğal Salep</h3>
+                            <p class="card-text">Saleplerimiz %100 saf katkısız salep tozudur. İçinde başka madde
+                                yoktur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/İmage/üçüncü-resim.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"><br>
+                            <h3 class="basliklar text-center">Doğal Salep</h3>
+                            <p class="card-text">Bucak Salep olarak satışını yaptığımız saleplerimiz garantimiz
+                                altındadır.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/İmage/dördüncü-resim.jpg" class="card-img-top" alt="...">
+                        <div class="card-body"><br>
+                            <h3 class="basliklar text-center">Doğal Salep</h3>
+                            <p class="card-text text-center">950,0000 TL ve üzeri alışverişlerinizde kargo
+                                bedavadır.Siparişleriniz 24 saatte kargolanır.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4 asagi">
+                    <div class="d-flex">
+                        <i class="fa-brands fa-wpexplorer me-2"></i>
+                        <div class="yazi-1">
+                            <h4>Salep Fiyatları</h4>
+                            <p>Salep fiyatları; salebin cinsine, kalitesine ve yöresine göre değişmektedir. Sitemizde
+                                Meşhur Bucak Salebi
+                                katkısız ve
+                                saf olarak satılmaktadır. Bucak salep bayi fiyatları için iletişime geçiniz.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4 asagi">
+                    <div class="d-flex">
+                        <i class="fa fa-book me-1"></i>
+                        <div class="yazi-1">
+
+                            <h4>Bucak Salep</h4>
+                            <p>Ülkemizin farklı yörelerinin salepleri meşhurdur. Kastamonu salebi, maraş salebi, muğla
+                                salebi gibi fakat en
+                                meşhur
+                                salep Bucak Salebidir. Salep'in borsası Bucak'ta belirlenir. bucaksalep.com olarak
+                                Meşhur Bucak Salebi satışı
+                                yapmaktayız.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4 asagi">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-graduation-cap me-2"></i>
+                        <div class="yazi-1">
+
+                            <h4>Salep Tozu</h4>
+                            <p>bucaksalep.com olarak Bucak salep tozu satışı yapmaktayız. Satışını yaptığımız bucak
+                                salebi
+                                tozu %100 saf ve katkısız
+                                saleptir.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <div class="Blog mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center"><strong>Bloglar</strong></h2>
+                </div>
+                <div class="col-3">
+                    <img class="mt-5" src="/İmage/1.blog.jfif" alt="">
+                    <a class="etiket" href="#">2026 Salep Fiyatları</a>
+                </div>
+                <div class="col-3 ">
+                    <img class="mt-5" src="/İmage/2.blog.jfif" alt="">
+                    <a class="etiket" href="#">Ramazan'da Salep Tüketmenin Faydaları </a>
+                </div>
+                <div class="col-3 ">
+                    <img class="mt-5" src="/İmage/3.blog.jfif" alt="">
+                    <a class="etiket" href="#">Salep Satın Al: Otağ Doğal ile Saf ve Lezzet Dolu Bir Deneyim</a>
+                </div>
+                <div class="col-3 ">
+                    <img class="mt-5" src="/İmage/4.blog.jfif" alt="">
+                    <a class="etiket" href="#">2024 Salep Fiyatları</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="iconlar-kismi">
         <div class="container">
             <div class="row py-4">
@@ -55,27 +749,27 @@
                 <div class="row mt-5">
                     <div class="col-2">
                         <a href="#">
-                            <img src="İmage/otag-dogal_trendyol.png" alt="">
+                            <img src="/İmage/otag-dogal_trendyol.png" alt="">
                         </a>
                     </div>
                     <div class="col-2 ms-3">
                         <a href="#">
-                            <img src="İmage/otag-dogal_hepsiburada.png" alt="">
+                            <img src="/İmage/otag-dogal_hepsiburada.png" alt="">
                         </a>
                     </div>
                     <div class="col-2 ms-3">
                         <a href="#">
-                            <img src="İmage/amazon-logo.png" alt="">
+                            <img src="/İmage/amazon-logo.png" alt="">
                         </a>
                     </div>
                     <div class="col-2 ms-3">
                         <a href="#">
-                            <img src="İmage/otag-dogal_eptt.png" alt="">
+                            <img src="/İmage/otag-dogal_eptt.png" alt="">
                         </a>
                     </div>
                     <div class="col-2 ms-3">
                         <a href="#">
-                            <img src="İmage/otag-dogal_n11.png" alt="">
+                            <img src="/İmage/otag-dogal_n11.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -132,8 +826,8 @@
                             <li class="mb-3"><i class="fa-solid fa-location-dot me-2"></i><a href="">www.bucaksalep.com
                                     Yeni Mah. Süleyman Demirel Bulvarı No:13 Kat:2 Daire:204
                                     Bucak/BURDUR</a></li>
-                            <li class="mb-3"><i class="fa-regular fa-envelope me-2"></i><a
-                                    href="">info@bucaksalep.com</a></li>
+                            <li class="mb-3"><i class="fa-regular fa-envelope me-2"></i><a href="">info@bucaksalep.com</a>
+                            </li>
                             <li class="mb-3"><i class="fa-solid fa-phone me-2"></i><a href="">+90 (545) 393 3193</a>
                             </li>
                         </ul>
@@ -169,7 +863,7 @@
                                 <li class="mb-3"><a href="">Mağaza Yorumları</a></li>
                             </ul>
                         </div>
-
+    
                     </div>
                     <div class="col-3 text-white">
                         <h5>Bizi Takip Edin</h5>
@@ -200,7 +894,6 @@
             </div>
         </div>
     </section>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
