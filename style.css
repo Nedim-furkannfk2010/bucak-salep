@@ -1,164 +1,337 @@
-.iconlar-kismi{
+:root {
+    font-size: 17px;
+}
+
+.ilk-yesil {
+    background-color: #7fbb43;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.kargo-araba {
+    margin-left: 5px;
+}
+
+.iletisim {
+    background-color: #341500;
+}
+
+.linkler {
+    list-style: none;
+}
+
+.linkler a {
+    color: #fff;
+}
+
+.linkler li {
+    margin-right: 10px;
+}
+
+.wp {
+    color: #fff;
+}
+
+.wp a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wp a:hover {
+    color: #7fbb43;
+}
+
+.navlar .nav-link {
+    color: #fff !important;
+    border-right: 0px #9f9f9f41 solid;
+}
+
+.navlar .nav-link:last-child {
+    border-right: 1px #9f9f9f41 solid;
+
+}
+
+.navlar .nav-link:hover {
+    color: #7fbb43 !important;
+}
+
+.navlar .dropdown-item:hover {
+    color: #7fbb43 !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #000;
+}
+
+.sepet a {
+    color: #fff;
+}
+
+.menu-linkler {
+    color: #000 !important;
+}
+
+.menu-link a:hover {
+    color: #7fbb43 !important;
+}
+
+.arama-kutusu {
+    background-color: #7fbb43;
+}
+
+.ic-ul {
+    position: absolute;
+    display: none;
+    border-top: 2px solid #7fbb43;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 120px;
+}
+.slider{
+    margin-top: 50px;
+}
+.asagi{
+    margin-top: 30px;
+}
+.section{
+    margin-top: 40px;
+    background-color: #539437;
+}
+.buyuk-yazi{
+    color: #fff;
+    padding: 30px;
+}
+.card{
+    margin-top: 70px;
+}
+.resimler{
+    background-color: #f9f5f2;
+}
+.basliklar{
+    color: #7fbb43;
+}
+.yazi-1{
+    padding: 0%;
+}
+.yildizlar{
+    color: #ffa904;
+}
+.fiyat{
+    color: #7fbb43;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.etiket{
+    color: #7fbb43;
+    text-decoration: none;
+}
+.asagi-yesil{
     background-color: #5ba61e;
 }
-.kamyonet-icon{
+.yazi-icon{
+    color: #fff;
+    font-size: 20px;
+}
+.icon{
+    font-size: 50px;
+}
+.iconlar-kismi {
+    background-color: #5ba61e;
+}
+
+.kamyonet-icon {
     font-size: 40px;
     color: #fff;
     margin-right: 15px;
 }
 
-.shopping-icon{
+.shopping-icon {
     font-size: 40px;
     color: #fff;
 }
-.credit-icon{
+
+.credit-icon {
     font-size: 40px;
     color: #fff;
-}   
-.form-kismi{
+}
+
+.form-kismi {
     background-color: #341500;
 }
-.liste1 ul{
+
+.liste1 ul {
     list-style: none;
     padding: 0%;
 }
-.liste1 ul li a{
+
+.liste1 ul li a {
     color: #fff;
 }
-.liste1 ul a:hover{
+
+.liste1 ul a:hover {
     color: #5ba61e;
 }
 
-.liste1 ul li a{
-    text-decoration:none ;
+.liste1 ul li a {
+    text-decoration: none;
 }
-.liste2 ul{
+
+.liste2 ul {
     list-style: none;
     padding: 0%;
 }
-.liste2 ul li a{
+
+.liste2 ul li a {
     color: #fff;
 }
-.liste2 ul li a:hover{
+
+.liste2 ul li a:hover {
     color: #5ba61e;
 }
-.liste2 ul li a{
-    text-decoration:none ;
+
+.liste2 ul li a {
+    text-decoration: none;
 }
-.liste2{
+
+.liste2 {
     margin-top: 33px;
 }
 
-.liste3 ul{
+.liste3 ul {
     list-style: none;
     padding: 0%;
 }
-.liste3 ul li a{
+
+.liste3 ul li a {
     color: #fff;
 }
-.liste3 ul li a:hover{
+
+.liste3 ul li a:hover {
     color: #5ba61e;
 }
-.liste3 ul li a{
-    text-decoration:none ;
+
+.liste3 ul li a {
+    text-decoration: none;
 }
-.liste3{
+
+.liste3 {
     margin-top: 33px;
 }
 
-.liste4 ul{
+.liste4 ul {
     list-style: none;
     padding: 0%;
 }
-.liste4 ul li a{
+
+.liste4 ul li a {
     color: #fff;
 }
-.liste4 ul li a:hover{
+
+.liste4 ul li a:hover {
     color: #5ba61e;
 }
-.liste4 ul li a{
-    text-decoration:none ;
+
+.liste4 ul li a {
+    text-decoration: none;
 }
 
-.liste5 ul{
+.liste5 ul {
     list-style: none;
     padding: 0%;
     margin-left: 25px;
 }
-.liste5 ul li a{
+
+.liste5 ul li a {
     color: #fff;
 }
-.liste5 ul li a{
-    text-decoration:none ;
+
+.liste5 ul li a {
+    text-decoration: none;
 }
 
 
-.liste6 ul{
+.liste6 ul {
     margin-top: 20px;
     list-style: none;
     padding: 0%;
 }
-.liste6 ul li a{
+
+.liste6 ul li a {
     color: #fff;
 }
-.liste6 ul li a{
-    text-decoration:none ;
+
+.liste6 ul li a {
+    text-decoration: none;
 }
-.liste6 ul li a:hover{
+
+.liste6 ul li a:hover {
     color: #5ba61e;
 }
 
 
-.liste7 ul{
+.liste7 ul {
     margin-top: 20px;
     list-style: none;
     padding: 0%;
 }
-.liste7 ul li a{
+
+.liste7 ul li a {
     color: #fff;
 }
-.liste7 ul li a{
-    text-decoration:none ;
+
+.liste7 ul li a {
+    text-decoration: none;
 }
-.liste7 ul li a:hover{
+
+.liste7 ul li a:hover {
     color: #5ba61e;
 }
 
 
-.liste8 ul{
+.liste8 ul {
     margin-top: 20px;
     list-style: none;
     padding: 0%;
 }
-.liste8 ul li a{
+
+.liste8 ul li a {
     color: #fff;
 }
-.liste8 ul li a{
-    text-decoration:none ;
+
+.liste8 ul li a {
+    text-decoration: none;
 }
-.liste8 ul li a:hover{
+
+.liste8 ul li a:hover {
     color: #5ba61e;
 }
-.liste8{
+
+.liste8 {
     margin-top: 24px;
 }
-.sosyal-medya{
+
+.sosyal-medya {
     list-style: none;
     padding: 0%;
 }
-.cizgi{
+
+.cizgi {
     border: solid 1px #343638;
 }
-.cardlar ul li{
+
+.cardlar ul li {
     list-style: none;
     margin-top: 3px;
 }
-.cardlar ul li i{
+
+.cardlar ul li i {
     font-size: 25px;
 }
-.cardlar .master{
+
+.cardlar .master {
     margin-left: 20px;
 }
-.cardlar .visa{
+
+.cardlar .visa {
     margin-left: 800px;
+
 }
